@@ -6,11 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -22,7 +17,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="src/main/java/|src/main/resources/|src/test/java/|src/test/resources/|ExcelFile/|src/main/|src/test/|src/|target/|Driver/" kind="src" path=""/>
 	<classpathentry kind="src" path="ExcelFile"/>
 	<classpathentry excluding="java/|resources/" kind="src" path="src/main"/>
 	<classpathentry excluding="java/|resources/" kind="src" path="src/test"/>
@@ -30,7 +24,6 @@
 	<classpathentry kind="src" path="Driver"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
