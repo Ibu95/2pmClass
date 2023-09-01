@@ -33,6 +33,8 @@ public class ClassA {
 		for (Datas datas : values) {
 			int id = datas.getId();
 		}
+		
+		System.out.println("First Change");
 	}
 
 }
