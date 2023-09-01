@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.424" tests="4" skipped="0" failures="1" errors="0">
+<testcase classname="Facebook Login In Chrome" name="Login With Valid Data" time="6.866">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDef.FbLogin_StepDefination.login_sucess_valid(FbLogin_StepDefination.java:57)
+	at ?.Login Sucess valid(file:///C:/Users/ibu95/eclipse-workspace2/Mvn02Pm/src/test/resources/Features/FbLogin_Chrome.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User Load the URL.....................................................passed
+When User Enter the UserName "Shivin".......................................passed
+And User Enter the Password "Tech"..........................................passed
+And User Click the Login button.............................................passed
+Then Login Sucess valid.....................................................failed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login In Chrome" name="Login With InValid Data" time="4.511">
+<system-out><![CDATA[
+Given User Load the URL.....................................................passed
+When User Enter the UserName "Shivn1".......................................passed
+And User Enter the Password "Tech1".........................................passed
+And User Click the Login button.............................................passed
+Then Login Sucess...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login In Chrome" name="Login With InValid Seq  Data - Example #1.1" time="4.79">
+<system-out><![CDATA[
+Given User Load the URL.....................................................passed
+When User Enter the UserName "Shv1".........................................passed
+And User Enter the Password "Tec1"..........................................passed
+And User Click the Login button.............................................passed
+Then Login Sucess...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook Login In Chrome" name="Login With InValid Seq  Data - Example #1.2" time="4.856">
+<system-out><![CDATA[
+Given User Load the URL.....................................................passed
+When User Enter the UserName "Shv2".........................................passed
+And User Enter the Password "Tec2"..........................................passed
+And User Click the Login button.............................................passed
+Then Login Sucess...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
